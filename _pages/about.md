@@ -1,6 +1,6 @@
 ---
-title: The Lab
-description: About the MAKinteract lab at KAIST
+title: About us
+description: Hakkımızda sayfası
 ---
 
 <!-- <a href="#" id="click_me">Click Me</a>
