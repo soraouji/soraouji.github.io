@@ -1,0 +1,18 @@
+title: Gökhan Aydın blog sayfası
+email: g d-o-t gokhanaydin.net
+description: >- #hello
+baseurl: ""
+url: ""
+twitter_username: soraouji
+github_username: soraouji
+
+markdown: kramdown
+theme: minima
+plugins:
+  - jeykll-feed
+
+defaults:
+  -
+    scope:
+      path:
+        values:
