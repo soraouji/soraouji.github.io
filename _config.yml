@@ -7,6 +7,10 @@ url: ""
 
 twitter_username: soraouji
 github_username: soraouji
+skills:
+  - "Executive Producer"
+  - "Graphic Designer"
+  - "2d & 3d Animator"
 
 markdown: kramdown
 theme: minima
