@@ -1,0 +1,41 @@
+---
+layout: default
+---
+<div class="hero">
+  <div class="heroText">
+    <h1>Hey there.</h1>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.9"></script>
+    <div id="typed-strings">
+      {% for item in site.skills %}
+      <p>{{ item }}</p>
+      {% endfor %}
+    </div>
+    <h2>I’m <b class="highlight">Zachary</b>. I am a <br><span class="typed" id="typed"></span></h2>
+    <script type="text/javascript">
+      var typed = new Typed('#typed', {
+        stringsElement: '#typed-strings',
+        typeSpeed: 100,
+        backSpeed: 20,
+        backDelay: 1000,
+        loop: true,
+      });
+    </script>
+  </div>
+  <!--<div class="heroVideo">
+    <img src="{{ site.baseurl }}/assets/img/hero.jpg" alt="Video Thumbnail">
+  </div>-->
+  <div class="timelineSection">
+    <h5>Here are some products/projects I’ve worked on:</h5>
+      <div class="timelineWrapper">
+        {% for project in site.projects reversed %}{% if project.link %}
+        <a href="{{ project.link }}" target="_blank" class="timelineContainer">{% else %}
+        <a class="timelineContainer">{% endif %}
+          <div class="timelineDotWrapper"><div class="timelineDot"></div></div>
+          <h4>{{ project.title }}</h4>
+          <small>{{ project.released }}</small>
+          <p>{{ project.description }}</p>
+        </a>
+        {% endfor %}
+      </div>
+  </div>
+</div>
