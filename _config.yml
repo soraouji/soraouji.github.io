@@ -6,6 +6,10 @@ url: ""
 twitter_username: soraouji
 github_username: soraouji
 
+markdown: kramdown
 theme: minima
-plugins:
-  - jeykll-feed
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
