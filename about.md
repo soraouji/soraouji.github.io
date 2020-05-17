@@ -1,6 +1,7 @@
 ---
 layout: default
-
+title: Aboutus
+permalink: /aboutus/
 ---
 # Hakkımızda
 
