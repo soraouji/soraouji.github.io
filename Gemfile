@@ -1,4 +1,4 @@
-gem "jekyll", "3.4.1"
+gem "jekyll", "3.6.3"
 
 gem "minima", "~> 2.0"
 
