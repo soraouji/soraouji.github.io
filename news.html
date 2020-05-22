@@ -4,4 +4,7 @@ layout: default
 
 <h1>Yeni yazılar</h1>
 
-{{content}}
+{% for item in site.posts %}
+<h2>{{ item.title }}</h2>
+<h2>{{ item.content }}</h2>
+{% endfor %}
