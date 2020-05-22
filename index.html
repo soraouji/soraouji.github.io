@@ -22,6 +22,9 @@
 <body>
     <h1>Yazılan Postlar</h1>
     
-    {{ site.posts }}
+    {% for item in site.posts %}
+        <h2>{{ item.title }}</h2>
+        <h2>{{ item.content }}</h2>
+    {% endfor %}
 </body>
 </html>
