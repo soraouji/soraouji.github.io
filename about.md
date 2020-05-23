@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Aboutus
 permalink: /aboutus/
 strapline: Executive Producer from Istanbul 
