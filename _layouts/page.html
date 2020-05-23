@@ -1,18 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Soraouji Jekyll Blog Page</title>
-</head>
-<body>
-    {% include header.html %}
-    
-    {% for item in site.posts %}
-        <h2>{{ item.title }}</h2>
-        <h2>{{ item.content }}</h2>
-    {% endfor %}
 
-    {% include footer.html %}
-</body>
-</html>
+    {% include header/base.html %}
+    
+{{content}}
+
+    {% include footer/base.html %}

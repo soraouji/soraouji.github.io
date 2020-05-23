@@ -1,9 +1,7 @@
----
----
-<nav class="header">
-    <ul>
+<nav>
+    <ol>
         {% for page in site.data.menu.pages %}
         <li><a href="{{page.url}}" title="{{page.title}}">{{ page.name }}</a></li>
         {% endfor %}
-    </ul>
+    </ol>
 </nav>
