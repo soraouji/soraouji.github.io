@@ -7,7 +7,7 @@ pages: [
     {
         "name": "Blog",
         "url": "/blog",
-        "title": "Latest blogs from Soraouji"
+        "tile": "Latest blogs from Soraouji"
     },
     {
         "name": "Contact",
