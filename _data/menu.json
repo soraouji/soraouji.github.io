@@ -1,0 +1,22 @@
+[
+    {
+        "name": "Publications",
+        "url": "/publications",
+        "title": "Books and Youtube"
+    },
+    {
+        "name": "Blog",
+        "url": "/blog",
+        "title": "Latest blogs from Soraouji"
+    },
+    {
+        "name": "Contact",
+        "url": "/contact",
+        "title": "Contact Me"
+    },
+    {
+        "name": "Hire Me",
+        "url": "/hire-me",
+        "title": "Hire me to executive direction your films"
+    }
+]

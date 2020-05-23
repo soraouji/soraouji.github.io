@@ -8,11 +8,13 @@
     <title>Soraouji Jekyll Blog Page</title>
 </head>
 <body>
-    <h1>Yazılan Postlar</h1>
+    {% include header.html %}
     
     {% for item in site.posts %}
         <h2>{{ item.title }}</h2>
         <h2>{{ item.content }}</h2>
     {% endfor %}
+
+    {% include footer.html %}
 </body>
 </html>
