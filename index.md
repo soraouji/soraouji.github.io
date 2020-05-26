@@ -1,5 +1,6 @@
 ---
 layout: page
+title: index sayfası
 ---
 
 # Home
