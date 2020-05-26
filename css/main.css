@@ -1,5 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
 html {
     margin: 0;
     padding: 0;
-    font: normal 100%/1.4 Georgia,serif;
+    
+}
+body {
+    max-width: 760px;
+    margin: 50px auto;
+    font: normal 100%/1.4 Segoe UI, sans-serif;
+}
+
+ul{
+    list-style:none;
+    display: flex;
+}
+ul li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    background-color:darkblue;
+    padding: 10px;
+    margin: 10px;   
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+ul li:hover{
+    background-color: #380CE8;
+}
+h1{
+    font-size: 4em;
+    font-family: 'Jost', sans-serif;
+    font-weight: 700;
+}
+div{
+    font-size: 2em;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
