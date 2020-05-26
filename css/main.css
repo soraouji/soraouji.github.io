@@ -9,6 +9,7 @@ html {
 body {
     max-width: 760px;
     margin: 50px auto;
+    background-color: #dcdde1;
     font: 300 100%/1.4 Roboto, sans-serif;
 }
 
