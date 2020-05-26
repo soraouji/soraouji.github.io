@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>gökhan aydın</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Open+Sans&display=swap" rel="stylesheet">
+    <style>
+       body{
+            max-width: 760px;
+            margin: 50px auto;
+            font-family: 'Open Sans', sans-serif;
+            font-size: 1.5rem;
+        }
+        h1{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 4rem;
+        }
+        nav{
+            display: flex;
+            list-style-type: none;
+            padding: 5px 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Jekyll ile blog sayfası denemeleri</h1>
+    </header>
+    {{content}}
+
+</body>
+</html>
