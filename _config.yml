@@ -4,7 +4,6 @@ description: >- #hello
   merhabalar yeni dünya
 baseurl: ""
 url: ""
-strapline: jekyll blog sitesi 
 
 twitter_username: soraouji
 github_username: soraouji
