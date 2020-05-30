@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gökhan Aydın's Blog Page
+title: Gökhan Aydın
 ---
 
 # Home
